@@ -13,18 +13,18 @@ distortion: 1
 
 limit_grad: 0.80
 
-camera_path:"/camera/rgb/image_color"
+camera_path: "/cam0/image_raw"
 
 cameraMatrix: !!opencv-matrix
    rows: 3
    cols: 3
    dt: d
-   data: [ 520.908620, 0., 325.141442, 0., 521.007327 , 249.701764, 0., 0., 1. ]
+   data: [ 444.14516870060487, 0., 327.96110973918803, 0., 441.178581452491 , 224.59697259676358, 0., 0., 1. ]
 distCoeffs: !!opencv-matrix
    rows: 5
    cols: 1
    dt: d
-   data: [ 0.231222, -0.784899, -0.003257, -0.000105, 0.917205 ]
+   data: [ -0.35403645527908723, 0.09955375249587807, 0.0, 0.0, 0.0 ]
 
 calculate_superpixels: 1
 num_cameras_mapping_th: 9
